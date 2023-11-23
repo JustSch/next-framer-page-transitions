@@ -32,7 +32,7 @@ const NavBar = () => {
         <Link href="/">
           <span className="nav-link">Contact</span>
         </Link>
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <a className="back-btn">Book a Tour</a>
         </Link>
       </div>
@@ -60,7 +60,7 @@ const Hero = () => {
           Explore Nation Parks is the countries leader for nation park tours.
           Make your vacation great with one of our amazing tour guides!
         </p>
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <a className="back-btn">View Our Parks</a>
         </Link>
       </motion.div>
